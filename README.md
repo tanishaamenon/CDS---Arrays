@@ -247,3 +247,28 @@ int main()
 ```
 <br>
 
+a.<br>
+![exp7a output](https://github.com/tanishaamenon/CDS---Arrays/blob/main/exp7a.JPG)
+<br>
+b.<br>
+![exp7b output](https://github.com/tanishaamenon/CDS---Arrays/blob/main/exp7b.JPG)
+<br>
+c.<br>
+![exp7c1 output](https://github.com/tanishaamenon/CDS---Arrays/blob/main/exp7c1.JPG)
+![exp7c2 output](https://github.com/tanishaamenon/CDS---Arrays/blob/main/exp7c2.JPG)
+<br>
+d.<br>
+![exp7d output](https://github.com/tanishaamenon/CDS---Arrays/blob/main/exp7d.JPG)
+<br>
+e.<br>
+![exp7e output](https://github.com/tanishaamenon/CDS---Arrays/blob/main/exp7e.JPG)
+<br>
+f.<br>
+![exp7f output](https://github.com/tanishaamenon/CDS---Arrays/blob/main/exp7f.JPG)
+<br>
+
+**Conclusion:** <br>
+&#8594; We learnt the use case of arrays in C++. <br>
+&#8594; We learnt how to perform basic string manipulations in C++. <br>
+<br>
+*******
