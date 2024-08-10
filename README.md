@@ -128,8 +128,9 @@ using namespace std;
 int main()
 {
     int n = 0,i = 0;
-    int num = 0, maxi = 0, mini = 1;
     int a[n];
+    int num = 0, maxi = 0, mini = a[0];
+    
     cout<<"Enter size of array: ";
     cin>>n;
     for(i = 0; i < n;i++)
