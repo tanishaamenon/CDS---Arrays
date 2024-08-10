@@ -1,6 +1,6 @@
 # Experiment 7
 **Aim:** <br>
-Downloading and Installing VS Code, (Hello World and Calculator program)<br>
+To study and implement C++ Arrays and Strings<br>
 <br>
 **Theory:** <br>
 C++ arrays are collections of elements with mutually inclusive types which stay together in one contiguous memory space. They can be declared by presenting the type of these elements followed by square brackets that hold their numbers. In other words, arrays begin counting from zero; thus for instance character zero on array becomes the first one while second one becomes character one and so forth. C++ arrays have fixed sizes that must be determined at compile time.<br>
@@ -121,4 +121,128 @@ int main()
 ```
 <br>
 
+d. <br>
+```
+# include <iostream>
+using namespace std;
+int main()
+{
+    int n = 0,i = 0;
+    int num = 0, maxi = 0, mini = 1;
+    int a[n];
+    cout<<"Enter size of array: ";
+    cin>>n;
+    for(i = 0; i < n;i++)
+    {
+        cout<<"Enter element no. "<< i+1 <<" of  the array: ";
+        cin>>a[i];
+    }
+    cout<<endl;
+    for(i = 0; i < n;i++)
+    {
+        if(a[i] > maxi)
+        {
+            maxi = a[i];
+        }
+        if(a[i] < mini)
+        {
+            mini = a[i];
+        }
+    }
+    cout<<"Maximum value amongst the elements are: "<<maxi<<endl;
+    cout<<"Minimum value amongst the elements are: "<<mini<<endl;
+
+
+}
+```
+<br>
+
+e. <br>
+```
+# include <iostream>
+using namespace std;
+int main()
+{
+    int n = 0,i = 0;
+    int num = 0, sum = 0, avg = 0;
+    int a[n];
+    cout<<"Enter size of array: ";
+    cin>>n;
+    for(i = 0; i < n;i++)
+    {
+        cout<<"Enter element no. "<< i+1 <<" of  the array: ";
+        cin>>a[i];
+    }
+    cout<<endl;
+    for(i = 0; i < n;i++)
+    {
+        sum = sum + a[i];
+    }
+    avg = sum/n;
+    cout<<"Sum of elements: "<<sum<<endl;
+    cout<<"Average of elements: "<<avg<<endl;
+
+
+}
+```
+<br>
+
+f. <br>
+```
+#include <iostream>
+#include <string>
+using namespace std; 
+
+int main()
+{
+    //printing a string
+    string s;
+    cout<<"Enter a word: ";
+    cin>>s;
+    cout<<"Word entered by user is: "<<s<<endl;
+    cout<<endl;
+
+    //concatenation of a string
+    string s1,s2;
+    cout<<"Enter a word: ";
+    cin>>s1;
+    cout<<"Enter another word: ";
+    cin>>s2;
+    cout<<"Concatenated word is: "<<s1+s2<<endl;
+    cout<<endl;
+
+    //printing string in reverse
+    string s3;
+    int i = 0;
+    cout<<"Enter a word: ";
+    cin>>s3;
+    cout<<"Reverse String: ";
+    for (i = s3.length()-1; i>=0; i-- )
+    {
+        cout<<s3[i];
+    }
+    cout<<endl;
+    cout<<endl;
+
+    //checking if a string is a palindrome.
+    string s4,rs;
+    int j = 0;
+    cout<<"Enter a word: ";
+    cin>>s4;
+    for (j = s4.length()-1; j>=0; j-- )
+    {
+        rs = rs + s4[j];
+    }
+    if (rs == s4)
+    {
+        cout<<"It is a palindrome."<<endl;
+    }
+    else
+    {
+        cout<<"It is not a palindrome."<<endl;   
+    }
+    cout<<endl;
+}
+```
+<br>
 
